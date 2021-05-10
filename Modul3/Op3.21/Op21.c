@@ -33,7 +33,7 @@ int main() {
      }
      //fork returns 0 to the newly created child 
      // we want to generate the sequence in the child function
-     else  if (pid== 0) {
+     else  if (pid == 0) {
         //when the algorithm is continually applied all positive integers will eventually reach 1
         //so we want to print all values until they reach 1
         // we will use a while loop
