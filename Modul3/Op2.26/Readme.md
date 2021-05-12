@@ -13,7 +13,7 @@ koden for det kan vi se i if-loopene.
 
 Kommandoer:
 "printf" --> tekst som vises på skjermen til bruker
-"scanf" --> ser om filen finnes
+"scanf" --> leser innholdet i filen
 "exit" --> gå ut av fil
 "fgetc" --> kopierer innhold
 "fputc" --> legger inn kopiert innhold
