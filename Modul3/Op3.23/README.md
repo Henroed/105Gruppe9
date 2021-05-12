@@ -1,0 +1,5 @@
+I denne oppgaven brukes et server program og et client program for å få ut en beskjed. Client programmet er hentet rett ut av boka (figur 3.22) og DataServeren er en redigert versjon av bokas kode (figur 3.21) med en liten endring i pout.prinln så den printer ut "Quote of the day" isteden for dagens dato. 
+
+For å få riktig resultat må man bruke både DataServer og DataClient. Man bruker de riktig med å først starte DataServeren, definert som server 6017 (linje 7), som vil da sende data til clienten og så etter det starte clienten. Man kompilerer og starter et java program med kommandoene "javac" og "java, og resultatet kan bli sett på bilde 1.
+
+Om man ikke starter serveren før man utfører client-programmet vil ikke programme funke fordi den ikke kan connecte til serveren, og den vil fange en exception som den skriver ut i en feilmelding. Dette gjør den på grunn av tryCatch settningen i koden (linje 6 til linje 21). Dette kan bli sett i bilde 2.
